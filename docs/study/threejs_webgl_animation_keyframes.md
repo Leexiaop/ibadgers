@@ -182,3 +182,4 @@ const renderer = new THREE.WebGLRenderer();
   </body>
 </html>
 ```
+<iframe src="https://leexiaop.github.io/static/threejs-case/1_webgl_animation_keyframes.html"></iframe>
