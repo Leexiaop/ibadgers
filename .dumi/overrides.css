@@ -1,0 +1,21 @@
+.dumi-default-doc-layout, .dumi-default-header {
+    background-color: #fff;
+}
+.dumi-default-header-content {
+    max-width: 100%;
+}
+
+.dumi-default-header-right {
+    justify-content: flex-end;
+}
+.dumi-default-navbar {
+    margin-right: 16px;
+}
+
+.dumi-default-navbar > li > a.active {
+    color: #1677ff;
+}
+
+.dumi-default-hero > p {
+    margin: 8px 32px;
+}

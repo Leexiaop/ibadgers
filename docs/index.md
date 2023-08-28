@@ -1,23 +1,60 @@
 ---
-title: A static site based on dumi
 hero:
-  title: Site
-  description: This is a persional website.
+  title: iBadgers Front-end Develop
+  description: 读万卷书，行万里路，代码运行了那么久，却总觉得不是最优秀...
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
+    - text: 开始
+      link: /guide
+    - text: Github
+      link: https://github.com/Leexiaop/
 features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+  - emoji: 👋
+    title: 组件不再是UI界面
+    description: 组件库不再是像其他只关注UI界面组件，而是更加关注业务场景，使用起来也方便至极，源码就在下面，可以学习思想，结合自己的场景稍加改动，即可适用任何你在用的技术栈，让你的不再为少见场景下开发组件难而发愁。
+  - emoji: 🗒
+    title: 面试题分模块深入原理
+    description: 面试题仅仅是想起什么就是什么的八股文，我们做了精细的模块划分。将各公司常见的面试题收入进来。一一给出答案，并且尽量的做到深入原理，在coding环节，也尽可能多的写出代码。提高自身的coding能力。
+  - emoji: 🔖
+    title: Leetcode算法天天刷
+    description: 互联网如此的浪潮下，如何能找到更好的工作。唯一的方法就是提高自己的能力，面试中算法水平的高低是决定你能去什么样的公司，能拿多少钱的关键，所以，卷算法是你唯一的选择。
+  - emoji: 🪢
+    title: 学习拔高进阶是硬道理
+    description: 曾经一直以为只要在自己的那一亩三分地深入研究就可以了，但是谁又能预料到当前的行业情况又是这样的起伏不定。所以，学习一些新的东西是势在必行，我选择了3D方向，和go语言。为自己增加一些筹码。
+  # - icon: http://leexiaop.github.io/static/ibadgers/5.png
+  #   title: 源码完全开放，相互进步
+  #   desc: 我们在组件的设计上，并不会过多的关注UI方面的问题，将UI方面的样式尽量留给使用者，我们设计的核心是解决业务中的相关问题。这是我们唯一的出发点。
+  - emoji: 📝
+    title: 卷是脚下的路
+    description: 未来路在哪里，加班使常态，累。未来路在哪里，技术还总缺那么一点点，卷。。。
+footer: 备案号 A20220625-0033 | Copyright © 2022<br />Powered by Lee!
 ---
 
-ibadgers
+## Badger Front-end Develop 的初衷
+
+还记得那是第一次跳槽，面试中问到很多问题不太会，只能通过百度等各种搜索的方式找到
+答案。但是后来慢慢发现。这就是狗熊掰棒子，不会的题也就是当时面试的时候能找到答案
+，再下一次跳槽的时候，该不会还是不会，还得重复原来的方式，继续搜寻答案，所以就有
+了记录的想法，所以在[CSDN](https://blog.csdn.net/leelxp/)上创建了第一个真正属于
+自己的 blog,记录了自己认为会在面试中遇到的问题和答案，共计发了 102 篇文章，那么
+未来再跳槽，就可以集中学习。
+
+后来慢慢发现，自己是时候该做一些项目了，也算是工作之余学习的一个补充，申请了
+github 账号。那么顺理成章的也就在 github 上用 hexo 创建了自己的
+blog，[Lee 前端技术栈](https://leexiaop.github.io/),并在内容上有了更多的更新（可
+能之前 blog 写的有很 low,或者是有错误），加入了 leetcode 算法练习等。所以，算是
+自己 blog 的一次升级吧。
+
+工作是换了一个又一个，当然在换的过程中，技术也得到了很大的提升，所以，每每换工作
+之后就对未来的技术会做一次规划升级，当前我已从某大厂离职。所以再次开启对未来成长
+做一些技术上的规划，这一次不再是单单面向面试的问题，而是会更着眼于技术点的系统化
+。以及新技术的学习。所以，在接下的几年中，希望能做这样几件事：
+
+- 总结一些工作中常用案例，封装成组件，贴出源码，提供思路；
+- 翻阅总结一些源码，学习大佬们的思想分享出来；
+- 进阶学习一些新的知识，开辟一些前端的延伸方向，比如三维开发，服务端开发等
+- 继续在算法方面上做更多的探索和研究，比较这是绝大多数程序员的硬伤，本人也不例
+  外
+
+未来有精力，也许还会做些什么升级，也许是内容质量，也许再加入新的模块，亦或者是开
+发移动端。。。who knows?但是学习前进的脚步不能停止，加油，陌生人，我们未来可期。
+。。
