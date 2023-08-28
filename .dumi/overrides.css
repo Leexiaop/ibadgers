@@ -1,5 +1,5 @@
 .dumi-default-doc-layout, .dumi-default-header {
-    background-color: #fff;
+    background-color: #fff!important;
 }
 .dumi-default-header-content {
     max-width: 90vw;
