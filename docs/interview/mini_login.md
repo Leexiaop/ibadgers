@@ -20,7 +20,7 @@ code，将 code 作为参数传递给微信服务器指定接口，就可以获�
 
 ## 流程
 
-![登录流程](http://leexiaop.github.io/static/ibadgers/interview/mini_login.png)
+![登录流程](https://leexiaop.github.io/static/ibadgers/interview/mini_login.png)
 
 - 通过 wx.login() 获取到用户的 code 判断用户是否授权读取用户信息，调用
   wx.getUserInfo 读取用户数据
@@ -39,7 +39,7 @@ code，将 code 作为参数传递给微信服务器指定接口，就可以获�
 
 ## 详细流程
 
-![登录流程](http://leexiaop.github.io/static/ibadgers/interview/mini_login_1.png)
+![登录流程](https://leexiaop.github.io/static/ibadgers/interview/mini_login_1.png)
 实际业务中，我们还需要登录态是否过期，通常的做法是在登录态（临时令牌）中保存有效
 期数据，该有效期数据应该在服务端校验登录态时和约定的时间（如服务端本地的系统时间
 或时间服务器上的标准时间）做对比。
@@ -52,4 +52,4 @@ code，将 code 作为参数传递给微信服务器指定接口，就可以获�
 - 如果过期，则发起完整的登录流程
 - 如果不过期，则继续使用本地保存的自定义登录态这种方式的好处是不需要小程序服务
   端来参与校验，而是在小程序端调用 AP，流程如下所示：
-  ![登录流程](http://leexiaop.github.io/static/ibadgers/interview/mini_login_2.png)
+  ![登录流程](https://leexiaop.github.io/static/ibadgers/interview/mini_login_2.png)

@@ -12,7 +12,7 @@ toc: content
 官方文档给出的生命周期流程图中可以看到，下一个阶段就进入了模板编译阶段，该阶段所
 做的主要工作是获取到用户传入的模板内容并将其编译成渲染函数。
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_3.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_3.png)
 
 模板编译阶段并不是存在于`Vue`的所有构建版本中，它只存在于完整版（即`vue.js`）中
 。在只包含运行时版本（即`vue.runtime.js`）中并不存在该阶段，这是因为当使

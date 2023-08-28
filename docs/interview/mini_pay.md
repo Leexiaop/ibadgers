@@ -14,7 +14,7 @@ toc: content
 
 ## 支付流程
 
-![微信小程序支付流程](http://leexiaop.github.io/static/ibadgers/interview/mini_pay.png)
+![微信小程序支付流程](https://leexiaop.github.io/static/ibadgers/interview/mini_pay.png)
 
 具体步骤：
 

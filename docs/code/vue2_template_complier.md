@@ -96,4 +96,4 @@ export function parse(template, options) {
 
 模版编译的大致流程图：
 
-![模版编译](http://leexiaop.github.io/static/ibadgers/code/vue2/template_compliar.png)
+![模版编译](https://leexiaop.github.io/static/ibadgers/code/vue2/template_compliar.png)

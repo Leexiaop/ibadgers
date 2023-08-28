@@ -20,7 +20,7 @@ features:
   - emoji: 🪢
     title: 学习拔高进阶是硬道理
     description: 曾经一直以为只要在自己的那一亩三分地深入研究就可以了，但是谁又能预料到当前的行业情况又是这样的起伏不定。所以，学习一些新的东西是势在必行，我选择了3D方向，和go语言。为自己增加一些筹码。
-  # - icon: http://leexiaop.github.io/static/ibadgers/5.png
+  # - icon: https://leexiaop.github.io/static/ibadgers/5.png
   #   title: 源码完全开放，相互进步
   #   desc: 我们在组件的设计上，并不会过多的关注UI方面的问题，将UI方面的样式尽量留给使用者，我们设计的核心是解决业务中的相关问题。这是我们唯一的出发点。
   - emoji: 📝

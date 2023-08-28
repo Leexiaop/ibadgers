@@ -59,7 +59,7 @@ toc: content
 可以看到，上述代码中定义了两个子组件`child1`和`child2`，然后使用两个按钮和一个动
 态组件来做出点击按钮切换不同组件的效果，如下图：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/component_1.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/component_1.png)
 
 从上图中可以看到，我们给组件 1 和组件 2 的输入框中分别输入了不同的内容后，之后当
 我们点击按钮切换组件的时候，切换之前输入的内容已经不存在了，这就说明点击按钮切换
@@ -81,7 +81,7 @@ toc: content
 
 此时的效果如下：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/component_2.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/component_2.png)
 
 可以看到，`child1`和`child2`不管怎么切换它都能保留自己切换之前的状态了。这就说明
 ，当我们切换组件的时候，组件并没有被销毁，而是被保存在了内存中，这样当我们再次切
@@ -469,7 +469,7 @@ else {
 
 它的算法是这样子的：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/component_3.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/component_3.png)
 
 1. 将新数据从尾部插入到`this.keys`中；
 2. 每当缓存命中（即缓存数据被访问），则将数据移到`this.keys`的尾部；
@@ -552,11 +552,7 @@ let vm = new Vue({
 `<keep-alive>`组件包裹了一个动态组件，这个动态组件默认指向组件`A`，当点
 击`switch`按钮时，动态切换组件`A`和`B`。我们来看下效果：
 
-<<<<<<< HEAD
-![](https://leexiaop.github.io/statics/ibadgers/code/vue2/component_4.png)
-======= ![](http://leexiaop.github.io/static/ibadgers/code/vue2/component_4.png)
-
-> > > > > > > 3fa2e091f6c9bef5dc8018c00085f06f5a4e700f
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/component_4.png)
 
 从图中我们可以看到，当第一次打开页面时，组件`A`被挂载，执行了组
 件`A`的`mounted`和`activated`钩子函数，当点击`switch`按钮后，组件`A`停止调用，同

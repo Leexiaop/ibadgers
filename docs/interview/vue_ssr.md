@@ -34,7 +34,7 @@ SSR 就是服务端渲染我们主要通过 SSR 来解决俩个问题：
 户端激活。这里需要生成一个服务器 bundle 文件用于服务端首屏渲染和一个客户端
 bundle 文件用于客户端激活。
 
-![vue实现SSR](http://leexiaop.github.io/static/ibadgers/interview/other_ssr.png)
+![vue实现SSR](https://leexiaop.github.io/static/ibadgers/interview/other_ssr.png)
 代码入口除了俩个不同的入口之外，其他的结构和之前 vue 应用完全相同。
 
 ```html

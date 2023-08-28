@@ -355,7 +355,7 @@ message | filter1 | filter2(arg);
 
 那么它的匹配过程如下图所示：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/filter_4.jpg)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/filter_4.jpg)
 
 将上例中的过滤器字符串都匹配完毕后，会得到如下结果：
 

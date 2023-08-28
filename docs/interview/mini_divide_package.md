@@ -17,7 +17,7 @@ toc: content
 小程序的分包一般是由于一个主包和多个分包组成：主包：一般只包含小程序的启动页，和
 tab 页面，以及分包用到的一些公共资源分包：只包含和当前分包有关的页面和私有资源
 
-![小程序分包](http://leexiaop.github.io/static/ibadgers/interview/mini_bag.png)
+![小程序分包](https://leexiaop.github.io/static/ibadgers/interview/mini_bag.png)
 
 ## 为什么需要分包
 

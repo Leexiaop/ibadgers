@@ -10,7 +10,7 @@ toc: content
 当前实例上的所有依赖追踪并且移除实例上的所有事件监听器。也就是说，当这个阶段完成
 之后，当前的 Vue 实例的整个生命流程就全部走完了，最终“寿终正寝”了。
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_7.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_7.png)
 
 ## 销毁阶段分析
 

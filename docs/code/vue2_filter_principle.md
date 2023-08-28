@@ -138,7 +138,7 @@ return res;
 以上，就是`resolveFilter`函数的所有逻辑。可以看到，`resolveFilter`函数其实就是在
 根据过滤器`id`获取到用户定义的对应的过滤器函数并返回，拿到用户定义的过滤器函数之
 后，就可以调用该函数并传入参数使其生效了。如下图所示：
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/filter_1.jpg)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/filter_1.jpg)
 
 ## 3. 串联过滤器原理
 
@@ -164,7 +164,7 @@ filters: {
 
 那么它被编译成渲染函数字符串后，会变成这个样子：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/filter_2.jpg)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/filter_2.jpg)
 
 可以看到，过滤器`filterA`的执行结果作为参数传给了过滤器`filterB`。
 
@@ -191,7 +191,7 @@ filters: {
 
 那么它被编译成渲染函数字符串后，会变成这个样子：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/filter_3.jpg)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/filter_3.jpg)
 
 可以看到，当过滤器接收其余参数时，它的参数都是从第二个参数开始往后传入的。
 

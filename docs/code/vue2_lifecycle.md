@@ -19,7 +19,7 @@ toc: content
 
 下图是`Vue`官网给出的`Vue`实例的生命周期流程图，如下：
 
-![vue生命周期](http://leexiaop.github.io/static/ibadgers/code/vue2/life_cycle.jpg)
+![vue生命周期](https://leexiaop.github.io/static/ibadgers/code/vue2/life_cycle.jpg)
 
 从图中我们可以看到，`Vue`实例的生命周期大致可分为 4 个阶段：
 

@@ -10,7 +10,7 @@ toc: content
 而在小程序中，选择了 Hybrid 的渲染方式，将视图层和逻辑层是分开的，双线程同时运行
 ，视图层的界面使用 WebView 进行渲染，逻辑层运行在 JSCore 中。
 
-![微信小程序](http://leexiaop.github.io/static/ibadgers/interview/mini_1.png)
+![微信小程序](https://leexiaop.github.io/static/ibadgers/interview/mini_1.png)
 
 渲染层：界面渲染相关的任务全都在 WebView 线程里执行。一个小程序存在多个界面，所
 以渲染层存在多个 WebView 线程。
@@ -24,13 +24,13 @@ toc: content
 候，通过宿主环境提供的 setData 方法把数据从逻辑层传递到渲染层，再经过对比前后差
 异，把差异应用在原来的 Dom 树上，渲染出正确的视图。
 
-![小程序通信](http://leexiaop.github.io/static/ibadgers/interview/mini_2.png)
+![小程序通信](https://leexiaop.github.io/static/ibadgers/interview/mini_2.png)
 
 当视图存在交互的时候，例如用户点击你界面上某个按钮，这类反馈应该通知给开发者的逻
 辑层，需要将对应的处理状态呈现给用户。对于事件的分发处理，微信进行了特殊的处理，
 将所有的事件拦截后，丢到逻辑层交给 JavaScript 进行处理。
 
-![小程序通信](http://leexiaop.github.io/static/ibadgers/interview/mini_3.png)
+![小程序通信](https://leexiaop.github.io/static/ibadgers/interview/mini_3.png)
 
 由于小程序是基于双线程的，也就是任何在视图层和逻辑层之间的数据传递都是线程间的通
 信，会有一定的延时，因此在小程序中，页面更新成了异步操作。
@@ -40,7 +40,7 @@ toc: content
 化工作较快完成，就要等逻辑层的指令才能进行下一步工作。因此逻辑层与渲染层需要有一
 定的机制保证时序正确，在每个小程序页面的生命周期中，存在着若干次页面数据通信。
 
-![小程序通信](http://leexiaop.github.io/static/ibadgers/interview/mini_4.png)
+![小程序通信](https://leexiaop.github.io/static/ibadgers/interview/mini_4.png)
 
 ## 运行机制
 
@@ -59,7 +59,7 @@ toc: content
 - 短时间内收到系统两次以上内存警告，也会对小程序进行销毁，这也就为什么一旦页面
   内存溢出，页面会奔溃的本质原因了
 
-![小程序运行机制](http://leexiaop.github.io/static/ibadgers/interview/mini_5.png)
+![小程序运行机制](https://leexiaop.github.io/static/ibadgers/interview/mini_5.png)
 
 开发者在后台发布新版本之后，无法立刻影响到所有现网用户，但最差情况下，也在发布之
 后 24 小时之内下发新版本信息到用户。

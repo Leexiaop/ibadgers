@@ -25,7 +25,7 @@ toc: content
 
 ## 实现原理
 
-![虚拟列表](http://leexiaop.github.io/static/ibadgers/interview/other_verticl_list.png)
+![虚拟列表](https://leexiaop.github.io/static/ibadgers/interview/other_verticl_list.png)
 
 `实现步骤：`
 

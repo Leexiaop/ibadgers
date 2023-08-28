@@ -12,7 +12,7 @@ toc: content
 同时还要开启对模板中数据（状态）的监控，当数据（状态）发生变化时通知其依赖进行视
 图更新。
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_4.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_4.png)
 
 ## 2. 挂载阶段分析
 
@@ -105,13 +105,13 @@ updateComponent = () => {
 也就是说，如果调用了`updateComponent`函数，就会将最新的模板内容渲染到视图页面中
 ，这样就完成了挂载操作的一半工作，即图中的上半部分：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_5.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_5.png)
 
 为什么说是完成了一半操作呢？这是因为在挂载阶段不但要将模板渲染到视图中，同时还要
 开启对模板中数据（状态）的监控，当数据（状态）发生变化时通知其依赖进行视图更新。
 即图中的下半部分：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_6.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_6.png)
 
 继续往下看，接下来创建了一个`Watcher`实例，并将定义好的`updateComponent`函数传入
 。要想开启对模板中数据（状态）的监控，这一段代码是关键，如下：

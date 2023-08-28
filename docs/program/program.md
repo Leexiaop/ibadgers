@@ -6,7 +6,7 @@ order: 2
 <ul class="program">
     <li>
         <a href="https://tinypng.com/">
-            <img src="http://leexiaop.github.io/static/ibadgers/program/shrunk.png" />
+            <img src="https://leexiaop.github.io/static/ibadgers/program/shrunk.png" />
             <span>熊猫图片压缩</span>
         </a>
     </li>

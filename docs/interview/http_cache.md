@@ -11,7 +11,7 @@ http 缓存就是在浏览器从服务端请求的资源，通过缓存规则保
 识，决定是否要缓存结果，如果需要，则将请求结果和表示存入浏览器缓存中。简单的流程
 ：
 
-![http缓存流程](http://leexiaop.github.io/static/ibadgers/interview/http_cache_1.png)
+![http缓存流程](https://leexiaop.github.io/static/ibadgers/interview/http_cache_1.png)
 
 - 浏览器每次发起请求，都会从浏览器缓存中查找该请求结果以及缓存标识。
 - 浏览器每次拿到返回的请求结果都会将结果和缓存标识存入到浏览器缓存中。
@@ -96,7 +96,7 @@ Cache-Control:max-age=300 时，则代表在这个请求正确返回时间（浏
 
 多个指令可以配合使用，达到多个目的，其优先级为：
 
-![强缓存](http://leexiaop.github.io/static/ibadgers/interview/http_cache_2.jpeg)
+![强缓存](https://leexiaop.github.io/static/ibadgers/interview/http_cache_2.jpeg)
 
 ## 协商缓存
 
@@ -105,10 +105,10 @@ Cache-Control:max-age=300 时，则代表在这个请求正确返回时间（浏
 
 - 协商缓存生效，返回 304 和 Not Modified：
 
-![协商缓存](http://leexiaop.github.io/static/ibadgers/interview/http_cach_3.jpeg)
+![协商缓存](https://leexiaop.github.io/static/ibadgers/interview/http_cach_3.jpeg)
 
 - 协商缓存失效，返回 200 和请求结果
-  ![协商缓存](http://leexiaop.github.io/static/ibadgers/interview/http_cach_4.jpeg)
+  ![协商缓存](https://leexiaop.github.io/static/ibadgers/interview/http_cach_4.jpeg)
 
 缓存可以通过设置两种 HTTP Header 实现：Last-Modified 和 ETag 。
 
@@ -174,7 +174,7 @@ Etag 和 Last-Modified 比较：
 200，重新返回资源和缓存标识，再存入浏览器缓存中；生效则返回 304，继续使用缓存.具
 体流程：
 
-![http缓存流程](http://leexiaop.github.io/static/ibadgers/interview/http_cache_5.jpeg)
+![http缓存流程](https://leexiaop.github.io/static/ibadgers/interview/http_cache_5.jpeg)
 
 ## 缓存的位置
 

@@ -101,7 +101,7 @@ window.addEventListener(
 
 ## 登录流程
 
-![单点登录流程图](http://leexiaop.github.io/static/ibadgers/interview/http_login.png)
+![单点登录流程图](https://leexiaop.github.io/static/ibadgers/interview/http_login.png)
 
 - 用户访问系统 1 的受保护资源，系统 1 发现用户未登录，跳转至 sso 认证中心，并
   将自己的地址作为参数

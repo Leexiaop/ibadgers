@@ -1355,7 +1355,7 @@ export default class Watcher {
 
 其内部原理如图所示：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_2.png)
+![](https://leexiaop.github.io/static/ibadgers/code/vue2/lifecycle_2.png)
 
 ## 7. 初始化 watch
 

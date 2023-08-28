@@ -81,7 +81,7 @@ webpack 是一个用于现代 JavaScript 应用程序的静态模块打包文件
 是开发阶段，可以被 webpack 直接引用的资源（可以直接被获取打包进 bundle.js 的资源
 ），当 webpack 处理应用程序时，他会在内部构建一张依赖图。此依赖图会对应映射到项
 目所需的每个模块（不在局限 js 文件），并生成一个或者是多个 bundle.
-![webpack](http://leexiaop.github.io/static/ibadgers/interview/webpack_1.png)
+![webpack](https://leexiaop.github.io/static/ibadgers/interview/webpack_1.png)
 
 ## webpack 的能力
 

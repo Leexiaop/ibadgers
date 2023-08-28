@@ -59,14 +59,14 @@ for (let i = 0; i < newChildren.length; i++) {
 的位置就是`所有未处理节点之前，而并非所有已处理节点之后`.
 
 - case1:
-  ![case1](http://leexiaop.github.io/static/ibadgers/code/vue2/update_son_vnode_1.png)
+  ![case1](https://leexiaop.github.io/static/ibadgers/code/vue2/update_son_vnode_1.png)
   上图中表示，左边是新的 VNode,右边是 oldVNode,当我们循环遍历的时候，发现前俩
   个可以按照我们想象中的那样处理完成，但是当循环 newChildren 中第三个子节点的
   时候发现，在 oldChildren 中并没有找到，那么就需要创建子节点。然后在
   oldChildren 中插入到真实的 DOM 里的第三个位置也就处理完成，这也是我们想要的
   结果。
 - case2:
-  ![case1](http://leexiaop.github.io/static/ibadgers/code/vue2/update_son_vnode_2.png)
+  ![case1](https://leexiaop.github.io/static/ibadgers/code/vue2/update_son_vnode_2.png)
   在 case1 中，我们完成好了第三个创建的子节点并放在了正确的位置。那么我们来看
   第四个需要创建的子节点的位置在那里？我们会发现他被插入到了 oldChildren 数组
   中第三个前面，这就出现了错误，所以，我们不能把创建的子节点放到 oldChildren
@@ -81,7 +81,7 @@ oldChildren 中未被处理的子节点都删除，这和删除节点是一样�
 
 遍历了 newChildren 和 oldChildren 后发现，找到了相同的子节点，但是他们的位置不一
 样。那么就需要以 newChildren 中位置为基准，移动在 oldChildren 中子节点的位置。
-![case1](http://leexiaop.github.io/static/ibadgers/code/vue2/update_son_vnode_3.png)
+![case1](https://leexiaop.github.io/static/ibadgers/code/vue2/update_son_vnode_3.png)
 在上图中，绿色的两个节点是相同节点但是所处位置不同，即 newChildren 里面的第三个
 子节点与真实 DOM 即 oldChildren 里面的第四个子节点相同但是所处位置不同，按照上面
 所说的，我们应该以 newChildren 里子节点的位置为基准，调整 oldChildren 里该节点的

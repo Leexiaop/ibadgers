@@ -200,4 +200,4 @@ function baseCompile (
 函数就可以拿到生成好的 render 函数字符串，然后在 compileToFunctions 函数内部将
 render 函数字符串传给 createFunction 函数从而变成真正的 render 函数返回出去，最
 后将其赋值给 options.render。为了便于更好的理解，我们画出了其上述过程的流程图:
-![vue模版编译流程图](http://leexiaop.github.io/static/ibadgers/code/vue2/template_compliar_detail.jpg)
+![vue模版编译流程图](https://leexiaop.github.io/static/ibadgers/code/vue2/template_compliar_detail.jpg)
