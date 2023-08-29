@@ -92,7 +92,7 @@ const renderer = new THREE.WebGLRenderer();
 		{
 			"imports": {
 				"three": "https://Leexiaop.github.io/static/cdn/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
+				"three/addons/": "https://Leexiaop.github.io/static/resources/threejs/jsm/"
 			}
 		}
 	</script>
@@ -128,12 +128,12 @@ const renderer = new THREE.WebGLRenderer();
 		camera.position.set(5, 2, 8)
 
 		const dracoLoader = new DRACOLoader()
-		dracoLoader.setDecoderPath('https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/draco/gltf/')
+		dracoLoader.setDecoderPath('https://Leexiaop.github.io/static/resources/threejs/jsm/libs/draco/gltf/')
 
 		//	通过引入资源来创建物体
 		const loader = new GLTFLoader()
 		loader.setDRACOLoader(dracoLoader)
-		loader.load('https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LittlestTokyo.glb', gltf => {
+		loader.load('https://Leexiaop.github.io/static/resources/threejs/models/gltf/LittlestTokyo.glb', gltf => {
 			const model = gltf.scene
 			//	设置物体的位置
 			model.position.set(1, 1, 0)

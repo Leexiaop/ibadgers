@@ -44,7 +44,7 @@ toc: content
         {
             "imports": {
                 "three": "https://Leexiaop.github.io/static/cdn/three.module.js",
-                "three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
+                "three/addons/": "https://Leexiaop.github.io/static/resources/threejs/jsm/"
             }
         }
     </script>
@@ -112,7 +112,7 @@ toc: content
 
         //  导入素材
         const loader = new GLTFLoader()
-        loader.load('https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/Soldier.glb', gltf => {
+        loader.load('https://Leexiaop.github.io/static/resources/threejs/models/gltf/Soldier.glb', gltf => {
             console.log(gltf)
             model = gltf.scene
             scene.add(model)
